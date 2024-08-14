@@ -5,7 +5,7 @@ import { RESULT } from "../command/constant";
 import { questions } from "../command/constant";
 import img from "../image/confity.webp";
 
-const Result:React.FC = ({ correct }) => {
+const Result: React.FC<IResult>  = ({ correct }) => {
   //-------------------------------
   const TITLE_RESULT = `Congratulations! You answered ${correct} out of ${questions.length} questions correctly.`;
 
