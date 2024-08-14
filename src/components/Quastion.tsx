@@ -10,7 +10,7 @@ const Question: React.FC<IDataProps> = ({ question, step, setStep, widthStep, co
     const handleClick = (i: number, step: number) => {
         onClickVariant(i, step)
         setStep(step + 1)
-        if (i === question.current) {
+        if (i === question.correct) {
             setCorrect(correct + 1)
         }
     }
