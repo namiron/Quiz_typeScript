@@ -1,28 +1,39 @@
-import { IDataTypes } from "../types/Types"
+export const RESULT = "Restart";
 
-export const RESULT: string = 'Restart'
+export const questions = [
+  {
+    title: "React is a ...?",
+    variables: ["library", "framework", "language"],
+    correct: 0,
+  },
+  {
+    title: "A component is a ...?",
+    variables: [
+      "function that returns text",
+      "function that returns JSX",
+      "function that returns nothing",
+    ],
+    correct: 1,
+  },
+  {
+    title: "What is useState?",
+    variables: [
+      "A function for saving state",
+      "A global state",
+      "An unnecessary function",
+    ],
+    correct: 0,
+  },
+  {
+    title: "What is JSX?",
+    variables: [
+      "A syntax for JavaScript code",
+      "A function name",
+      "A syntax for HTML-like code",
+    ],
+    correct: 2,
+  },
+];
 
-
-export const questions: IDataTypes[] = [
-    {
-        title: 'React - this ...?',
-        variables: ['library', 'framework', 'language'],
-        current: 0
-    },
-    {
-        title: 'component - this ...?',
-        variables: ['function for return text', 'function for return jsx', 'function for nothing return '],
-        current: 1
-    },
-    {
-        title: "What it's useState?",
-        variables: ['This is function for save data', 'This is global state', 'This is not necessary function'],
-        current: 0
-    },
-    {
-        title: "What it's Jsx?",
-        variables: ['This is syntax javaScript code', 'This is name of function', 'This is syntax html code',],
-        current: 2
-    },
-]
+export const test = ``;
 
