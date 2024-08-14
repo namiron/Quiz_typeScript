@@ -6,6 +6,9 @@ export interface IQuestionTypes {
     correct: number
 }
 
+export interface IResult {
+  correct: number;
+}
 
 export type IDataTypes = IQuestionTypes
 
