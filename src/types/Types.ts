@@ -3,7 +3,7 @@
 export interface IQuestionTypes {
     title: string,
     variables: Array<string>,
-    current: number
+    correct: number
 }
 
 
