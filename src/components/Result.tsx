@@ -1,7 +1,7 @@
 import React from "react";
 import quiz from "./../modules/questions.module.scss";
 import { RESULT } from "../command/constant";
-
+import { IResult } from "../types/Types";
 import { questions } from "../command/constant";
 import img from "../image/confity.webp";
 
